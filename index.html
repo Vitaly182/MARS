@@ -1,0 +1,91 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=, initial-scale=1.0">
+       <title>Welcome to Mars</title>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+       <header class="main-header">
+            <div class="wrapper main-header--layout">
+                <a href="#home" class="main-header--logolink">
+                    <img width="118" height="21" src="img/logo.svg" alt="Logotype of Mars">                    
+                </a>
+                <nav class="main-header--nav main-nav">
+                    <a href="#home" class="main-nav--link">Home</a>
+                    <a href="#about" class="main-nav--link">About Mars</a>
+                    <a href="#contacts" class="main-nav--link">Contacts</a>
+                </nav>
+            </div>
+       </header>
+       <main class="content">
+           <section id="home" class="screen screen-home">
+                <div class="wrapper">
+                    <video src="video/mars.mp4" class="screen-home--video" autoplay loop muted></video>
+                    <div class="screen-home--wrap">
+                        <h1 class="screen-home--h">
+                            welcome to mars
+                        </h1>
+                        <p class="screen-home--text">
+                            Making a Home on the Red Planet
+                        </p>
+                    </div>
+                </div>
+           </section>            
+           <section id="about" class="screen screen-about">
+                <div class="wrapper">
+                    <h2 class="screen-about--h screen--h">
+                        About Mars
+                    </h2>
+                    <p class="screen-about--text">
+                        At an average distance of 140 million miles, Mars is one of Earth's closest habitable neighbors. Mars is about half again as far from the Sun as Earth is, so it still has decent sunlight. It is a little cold, but we can warm it up. Its atmosphere is primarily CO2 with some nitrogen and argon and a few other trace elements, which means that we can grow plants on Mars just by compressing the atmosphere. Gravity on Mars is about 38% of that of Earth, so you would be able to lift heavy things and bound around. Furthermore, the day is remarkably close to that of Earth.
+                    </p>
+                </div>
+           </section>
+           <section id="contacts" class="screen screen-contacts">
+                <div class="wrapper">
+                    <h2 class="screen-contacts--h screen--h">
+                        become a martian
+                    </h2>
+                    <p class="screen-contacts-text">
+                        Заполните форму  HTML/CSS 
+                    </p>
+                    <form action="#" class="main-form">
+                        <p class="main-form-wrap">
+                            <label class="main-form-label">
+                                <span class="main-form--head">
+                                     Имя
+                                </span>
+                                <input name="client-name" type="text" class="main-form--input" placeholder="Как Вас зовут?">
+                            </label>
+                        </p>
+                        <p class="main-form-wrap">
+                            <label class="main-form-label">
+                                <span class="main-form--head">
+                                     Email
+                                </span>
+                                <input name="client-email" type="email" class="main-form--input" placeholder="email@email.com" required>
+                            </label>
+                        </p>
+                        <p class="main-form-wrap">
+                            <label class="main-form-label">
+                                <span class="main-form--head">
+                                     Телефон
+                                </span>
+                                <input name="client-phone" type="phone" class="main-form--input" placeholder="+380 XX XXX XX XX">
+                            </label>
+                        </p>
+                        <button class="main-form--submit" type="submit">
+                            Получить результат!
+                        </button>
+                    </form>                    
+                </div>
+           </section>
+        </main>
+   </body>
+   </html>
